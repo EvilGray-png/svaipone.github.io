@@ -1,0 +1,40 @@
+body {
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+    font-family: "hind-regular", serif;
+}
+
+.BoxLayout {
+    text-align: left;
+}
+
+.GridLayout {
+    grid-template-columns: 50% 50%;
+    display: grid;
+}
+
+.GridLayout1 {
+    grid-template-columns: 50%;
+    display: grid;
+}
+
+.GridLayout2 {
+    grid-template-columns: 33% 33% 33%;
+    display: grid;
+}
+
+.item {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+
+
+@font-face {
+  font-family: "hind-regular";
+  src: url("../fonts/hind-regular.otf") format("truetype");
+
+}
+
